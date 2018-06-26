@@ -7,7 +7,7 @@ function makeGrid() {
     const gridHeight = document.getElementById("input_height").value;
     const gridWidth = document.getElementById("input_width").value;
     const pixelCanvas = document.getElementById("pixel_canvas"); 
-    pixelCanvas.innerText=""; // udacity   
+    pixelCanvas.innerText=""; // empty grid  
     
     for (let h=0; h<gridHeight; ++h) {
         const row = pixelCanvas.insertRow(-1); 
