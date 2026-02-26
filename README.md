@@ -1,18 +1,20 @@
-# Pixel Art Maker Project
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-https://jauntybugs.github.io/jeminat-muritala.github.io./
+# Run and deploy your AI Studio app
 
-## Table of Contents
+This contains everything you need to run your app locally.
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+View your app in AI Studio: https://ai.studio/apps/drive/1_b2T9Jaer5JxNDfsoML7lLyTDZlKR7-s
 
-## Instructions
+## Run Locally
 
-To get started, open `designs.js` and start building out the app's functionality.
+**Prerequisites:**  Node.js
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
 
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
